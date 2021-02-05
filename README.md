@@ -11,3 +11,4 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - Finder Show Path Bar
 - .zshrc
 - Git (config and SSH)
+- Homebrew Install
