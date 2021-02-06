@@ -1,17 +1,17 @@
+# Set Variables
 ZSH_DISABLE_COMPFIX="true"
-
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/`whoami`/.oh-my-zsh"
-
+export ZSH="/Users/admin/.oh-my-zsh"
 # ZSH Theme
 ZSH_THEME="robbyrussell"
-
 # ZSH Plugins
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+# User configurations
 
 # Aliases
 alias ls='ls -lAFhG'
