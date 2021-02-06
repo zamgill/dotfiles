@@ -18,6 +18,9 @@ brew "watchman"
 
 # Casks (Applications / Fonts)
 cask "adoptopenjdk8"
+cask "android-studio"
+cask "azure-data-studio"
+cask "discord"
 cask "dropbox"
 cask "font-cascadia-code-pl"
 cask "font-code-new-roman-nerd-font"
@@ -25,9 +28,15 @@ cask "font-fira-code-nerd-font"
 cask "font-sauce-code-pro-nerd-font"
 cask "font-sf-mono-nerd-font"
 cask "font-source-code-pro"
+cask "gitkraken"
+cask "iterm2"
 cask "lulu"
+cask "maccy"
 cask "microsoft-auto-update"
+cask "microsoft-azure-storage-explorer"
 cask "microsoft-edge"
+cask "postman"
+cask "zoom"
 
 # Mac Apple Store Apps
 mas "Amphetamine", id: 937984704
