@@ -26,7 +26,8 @@ brew install homebrew/cask-fonts/font-source-code-pro-for-powerline
 brew install tomcat@7
 
 # Apps
-brew install --cask google-chrome
-brew install --cask microsoft-edge
-brew install --cask brave-browser
-brew install --cask visual-studio-code
+brew install --cask google-chrome --no-quarantine
+brew install --cask microsoft-edge --no-quarantine
+brew install --cask brave-browser --no-quarantine
+brew install --cask visual-studio-code --no-quarantine
+brew install --cask alfred --no-quarantine
