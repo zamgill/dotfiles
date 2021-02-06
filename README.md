@@ -14,3 +14,4 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - Git (config and SSH)
 - HazeOver (trial) Install
 - O365 Install
+- Alfred (turn off Spotlight shortcut to use for Alfred)
