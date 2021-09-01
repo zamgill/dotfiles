@@ -15,3 +15,5 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - HazeOver (trial) Install
 - O365 Install
 - Alfred (turn off Spotlight shortcut to use for Alfred)
+- Add fonts:
+  - SFMono with powerline and ligature: https://github.com/IPconfig/SF-Mono-Patched
