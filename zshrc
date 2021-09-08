@@ -11,6 +11,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS=" --no-quarantine"
 
 source $ZSH/oh-my-zsh.sh
+source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # User configurations
 
@@ -34,3 +35,4 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/build-tools/29.0.2
 export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
+export PATH="/usr/local/opt/tomcat@9/bin:$PATH"
