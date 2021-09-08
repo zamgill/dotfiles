@@ -18,3 +18,4 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - Add fonts:
   - [SFMono with powerline and ligature](https://github.com/IPconfig/SF-Mono-Patched)
   - [Cascadia Code](https://github.com/microsoft/cascadia-code)
+- Setup [starship-prompt](https://starship.rs/)
