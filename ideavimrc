@@ -1,0 +1,56 @@
+set number relativenumber
+set ideajoin
+set ideafactormode=keep
+set clipboard+=unnamed
+set clipboard+=ideaput
+
+" Ideavim
+nnoremap \e :e C:\Users\zamgi\.ideavimrc<CR>
+nnoremap \v :action IdeaVim.ReloadVimRc.reload<CR>
+
+sethandler <c-j> a:vim
+sethandler <c-k> a:vim
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+
+let mapleader = " "
+
+inoremap jj <Esc>
+
+" Mappings ----------------------------------
+nmap <Tab> :action NextTab<CR>
+nmap <S-Tab> :action PreviousTab<CR>
+
+nmap <Leader><ESC> :action HideAllWindows<CR>:action FocusEditor<CR>
+
+map <leader>f <Plug>(easymotion-s)
+map <leader>e <Plug>(easymotion-f)
+
+map <leader>d <Action>(Debug)
+map <leader>r <Action>(RenameElement)
+map <leader>c <Action>(Stop)
+map <leader>z <Action>(ToggleDistractionFreeMode)
+
+map <leader>s <Action>(SelectInProjectView)
+map <leader>a <Action>(Annotate)
+map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
+map <S-Space> <Action>(GotoNextError)
+
+map <leader>b <Action>(ToggleLineBreakpoint)
+map <leader>o <Action>(FileStructurePopup)
+
+map gh <Action>(ShowErrorDescription)
+map \r <Action>(ReformatCode)
+
+nnoremap <Leader>qq :action CloseContent<CR>
+nnoremap <Leader>qa :action CloseAllEditors<CR>
+
+" extensions
+set surround
+set easymotion
+set multiple-cursors
+set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
