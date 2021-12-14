@@ -8,8 +8,8 @@ set clipboard+=ideaput
 nnoremap \e :e C:\Users\zamgi\.ideavimrc<CR>
 nnoremap \v :action IdeaVim.ReloadVimRc.reload<CR>
 
-sethandler <c-j> a:vim
-sethandler <c-k> a:vim
+" sethandler <c-j> a:vim
+" sethandler <c-k> a:vim
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 nnoremap <c-j> <c-w>j
@@ -24,11 +24,13 @@ nmap <Tab> :action NextTab<CR>
 nmap <S-Tab> :action PreviousTab<CR>
 
 nmap <Leader><ESC> :action HideAllWindows<CR>:action FocusEditor<CR>
+nmap <Leader><Tab> <Action>(RecentFiles)
 
 map <leader>f <Plug>(easymotion-s)
 map <leader>e <Plug>(easymotion-f)
 
-map <leader>d <Action>(Debug)
+map <leader>dd <Action>(Debug)
+map <leader>dr <Action>(Rerun)
 map <leader>r <Action>(RenameElement)
 map <leader>c <Action>(Stop)
 map <leader>z <Action>(ToggleDistractionFreeMode)
@@ -37,6 +39,7 @@ map <leader>s <Action>(SelectInProjectView)
 map <leader>a <Action>(Annotate)
 map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
 map <S-Space> <Action>(GotoNextError)
+map <leader>nb <Action>(ShowNavBar)
 
 map <leader>b <Action>(ToggleLineBreakpoint)
 map <leader>o <Action>(FileStructurePopup)
@@ -46,6 +49,8 @@ map \r <Action>(ReformatCode)
 
 nnoremap <Leader>qq :action CloseContent<CR>
 nnoremap <Leader>qa :action CloseAllEditors<CR>
+
+map gi <Action>(GotoImplementation)
 
 " extensions
 set surround
