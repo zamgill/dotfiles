@@ -6,6 +6,8 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 
 ## TODO
 
+- Update install.config.yaml to include node installation through nvm and add simlink needed for newer MacOSs:
+  - `sudo ln -s "$(which node)" /System/Volumes/Data/usr/local/bin`
 - Terminal Preferences
 - Changed Shell to ZSH
 - Dock Preferences
